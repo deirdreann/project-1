@@ -45,7 +45,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                	<a href="#reserve"><button type="button" class="btn-sm btn-warning btn-block">Reserve Table</button></a>
+                	<a href="#reserve"><button type="button" class="btn btn-sm btn-warning btn-block">Reserve Table</button></a>
                 </div>
             </div>
         </div>
@@ -108,21 +108,33 @@
                     		<div class="form-group row">
                         		<label for="numguests" class="col-12 col-md-2 col-form-label">Number of Guests</label>
 		                        <div class="col-md-10" id="numguests">
-		                            <input type="radio" class="radio-inline" name="numguests" value="1"> 1&nbsp;&nbsp;
-		                            <input type="radio" class="radio-inline" name="numguests" value="2"> 2&nbsp;&nbsp;
-		                            <input type="radio" class="radio-inline" name="numguests" value="2"> 3&nbsp;&nbsp;
-		                            <input type="radio" class="radio-inline" name="numguests" value="2"> 4&nbsp;&nbsp;
-		                            <input type="radio" class="radio-inline" name="numguests" value="2"> 5&nbsp;&nbsp;
-		                            <input type="radio" class="radio-inline" name="numguests" value="2"> 6
+		                        	<div class="form-check" style="display: inline-block;">
+		                        		<input type="radio" class="form-check-input  radio-inline" name="numguests" value="1" id="one"><label for="one"> 1 </label>
+		                            </div>
+		                            <div class="form-check" style="display: inline-block;">
+		                        		<input type="radio" class="form-check-input  radio-inline" name="numguests" value="2" id="two"><label for="two"> 2 </label>
+		                            </div>
+		                            <div class="form-check" style="display: inline-block;">
+		                        		<input type="radio" class="form-check-input  radio-inline" name="numguests" value="3" id="three"><label for="three"> 3 </label>
+		                            </div>
+		                            <div class="form-check" style="display: inline-block;">
+		                        		<input type="radio" class="form-check-input  radio-inline" name="numguests" value="4" id="four"><label for="four"> 4 </label>
+		                            </div>
+		                            <div class="form-check" style="display: inline-block;">
+		                        		<input type="radio" class="form-check-input  radio-inline" name="numguests" value="5" id="five"><label for="five"> 5 </label>
+		                            </div>
+		                            <div class="form-check" style="display: inline-block;">
+		                        		<input type="radio" class="form-check-input  radio-inline" name="numguests" value="6" id="six"><label for="six"> 6 </label>
+		                            </div>
 		                        </div>
 		                    </div>
                     
 		                    <div class="form-group row">
 		                        <label for="datetime" class="col-12 col-md-2 col-form-label">Date and Time</label>
-		                        <div class="col-6 col-md-5">
+		                        <div class="col-12 col-md-5">
 		                            <input type="text" class="form-control" id="date" name="date" placeholder="Date">
 		                        </div>
-		                        <div class="col-6 col-md-5">
+		                        <div class="col-12 col-md-5">
 		                            <input type="text" class="form-control" id="time" name="time" placeholder="Time">
 		                        </div>
 		                    </div>
